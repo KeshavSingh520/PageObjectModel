@@ -8,5 +8,11 @@ public class HomePage {
 		
 		System.out.println("Hisg");
 	}
+	
+   public void show() {
+		
+		
+		System.out.println("gsgg");
+	}
 
 }
