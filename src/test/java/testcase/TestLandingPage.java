@@ -10,8 +10,8 @@ public class TestLandingPage {
 	@Test
 	public void Testlogin()
 	{
-		LandingPage LP =new LandingPage();
-		LP.doSearch();
+		LandingPage lp =new LandingPage();
+		lp.doSearch();
 		
 	}
 
