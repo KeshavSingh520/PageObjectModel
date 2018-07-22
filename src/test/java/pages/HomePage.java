@@ -4,21 +4,21 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-public class HomePage {
-	public static  WebDriver driver;
+import base.pagebase;
+
+public class HomePage extends pagebase {
+
 	
-	public HomePage(WebDriver  driver)
+	
+	
+	
+	public  void  doLogin(String username,String password)
 	{
-		this.driver=driver;
 		
-	}
-	
-	
-	@Test
-	public void doLogin(String username,String password)
-	{
-		driver.findElement(By.cssSelector("input[type='email']")).sendKeys(username);
-		driver.findElement(By.cssSelector("input[name='pass']")).sendKeys(password);
+		driver.findElement(By.xpath(OR.getProperty("Email"))).sendKeys(username);
+		driver.findElement(By.xpath(OR.getProperty("Password"))).sendKeys(password);
+	    driver.findElement(By.xpath(OR.getProperty("Submit"))).click();
+	    
 	}
 	
 	public void createaccount()

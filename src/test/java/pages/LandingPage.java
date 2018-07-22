@@ -1,16 +1,17 @@
 package pages;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
 
-public class LandingPage {
+import base.pagebase;
 
-	WebDriver driver;
-	public LandingPage(WebDriver driver)
+public class LandingPage extends pagebase {
+
+	public void doSearch()
 	{
-		this.driver=driver;
+		driver.findElement(By.cssSelector(OR.getProperty("Search"))).sendKeys("Selenium");
+		
 		
 	}
-	
 	
 	
 	

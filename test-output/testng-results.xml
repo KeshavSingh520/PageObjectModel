@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37793" started-at="2018-07-22T05:40:12Z" finished-at="2018-07-22T05:40:50Z">
+    <groups>
+    </groups>
+    <test name="HomePage" duration-ms="37527" started-at="2018-07-22T05:40:12Z" finished-at="2018-07-22T05:40:50Z">
+      <class name="testcase.TestHomePage">
+        <test-method status="PASS" signature="Testlogin()[pri:0, instance:testcase.TestHomePage@91161c7]" name="Testlogin" duration-ms="37483" started-at="2018-07-22T05:40:12Z" finished-at="2018-07-22T05:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testlogin -->
+      </class> <!-- testcase.TestHomePage -->
+    </test> <!-- HomePage -->
+    <test name="LandingPage" duration-ms="218" started-at="2018-07-22T05:40:50Z" finished-at="2018-07-22T05:40:50Z">
+      <class name="testcase.TestLandingPage">
+        <test-method status="PASS" signature="Testlogin()[pri:0, instance:testcase.TestLandingPage@402a079c]" name="Testlogin" duration-ms="215" started-at="2018-07-22T05:40:50Z" finished-at="2018-07-22T05:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testlogin -->
+      </class> <!-- testcase.TestLandingPage -->
+    </test> <!-- LandingPage -->
+  </suite> <!-- Suite -->
+</testng-results>
