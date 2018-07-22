@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 
 import base.pagebase;
 
@@ -10,7 +11,7 @@ public class LandingPage extends pagebase {
 	{
 		driver.findElement(By.cssSelector(OR.getProperty("Search"))).sendKeys("Selenium");
 		
-		
+		driver.findElement(By.cssSelector(OR.getProperty("Search"))).sendKeys(Keys.ENTER);
 	}
 	
 	
